@@ -27,6 +27,11 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: .3s;
+}
+
+.header.sticky{
+    background: #081b29;
 }
 
 .logo{
@@ -286,7 +291,7 @@ body{
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    padding: 0 10%;
+    padding: 80px 10%;
     padding-bottom: 6rem;
     background: #112e42;
 }
@@ -361,13 +366,95 @@ span{
 }
 
 
+/* SERVISEC SECTION */
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 80px 10%;
+    padding-bottom: 6rem;
+    background: #081b29;
+}
+
+.services h2{
+    margin-bottom: 2rem;
+}
+
+.services-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-content .services-box{
+    flex: 1 1 20rem;
+    background: #112e42;
+    padding: 2rem 2rem 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .1rem solid #00abf0;
+}
+
+.services-box i{
+    font-size: 4rem;
+    color: #00abf0;
+}
+
+.services-box h3{
+    font-size: 1.5rem;
+}
+
+.services-box p{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* CONTACT SECTION */
 
 .contact{
-        padding: 0 10%;
+        padding: 75px 10%;
         padding-bottom: 6rem;
         min-height: auto;
         padding-bottom: 7rem;
+        background: #112e42;
 }
 
 .contact form{
@@ -463,7 +550,7 @@ span{
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem 9%;
-    background: #112e42;
+    background: #081b29;
 }
 
 .footer-iconTop a{
