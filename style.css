@@ -393,11 +393,20 @@ span{
 
 .services-content .services-box{
     flex: 1 1 20rem;
-    background: #112e42;
+    background: #081b29;
     padding: 2rem 2rem 3rem;
     border-radius: 2rem;
     text-align: center;
     border: .1rem solid #00abf0;
+    transition: .5s;
+}
+
+.services .btns{
+    height: 2.7rem;
+}
+
+.services-content .services-box:hover{
+    transform: scale(1.03);
 }
 
 .services-box i{
@@ -411,6 +420,7 @@ span{
 
 .services-box p{
     font-size: 1rem;
+    margin: 1rem 0 2.5rem;
 }
 
 
